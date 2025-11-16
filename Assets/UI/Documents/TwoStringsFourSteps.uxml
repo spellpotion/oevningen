@@ -1,0 +1,30 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Style%20Sheets/Common.uss?fileID=7433441132597879392&amp;guid=a584ee2bb86a7374aaefda64e1a84090&amp;type=3#Common" />
+    <ui:VisualElement name="background" style="flex-grow: 1;">
+        <ui:VisualElement name="background-extended" style="flex-grow: 1;" />
+        <ui:VisualElement name="background-closed" style="flex-grow: 1;" />
+        <ui:VisualElement name="background-closed" style="flex-grow: 1;" />
+        <ui:VisualElement name="background-closed" style="flex-grow: 1;" />
+        <ui:VisualElement name="background-closed" style="flex-grow: 1;" />
+        <ui:VisualElement name="background-extended" style="flex-grow: 1;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="finger-board" style="flex-direction: row; position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin-right: 10%; margin-left: 10%;">
+        <ui:VisualElement name="string-board" class="stringboard" style="flex-grow: 1;">
+            <ui:VisualElement name="finger-position-0" class="fingerPosition" />
+            <ui:VisualElement name="finger-position-1" class="fingerPosition" />
+            <ui:VisualElement name="finger-position-2" class="fingerPosition" />
+            <ui:VisualElement name="finger-position-3" class="fingerPosition" />
+            <ui:VisualElement name="finger-position-4" class="fingerPosition" />
+            <ui:VisualElement name="finger-position-5" class="fingerPosition" />
+        </ui:VisualElement>
+        <ui:VisualElement name="string-board" class="stringboard" style="flex-grow: 1;">
+            <ui:VisualElement name="finger-position-6" class="fingerPosition" />
+            <ui:VisualElement name="finger-position-7" class="fingerPosition" />
+            <ui:VisualElement name="finger-position-8" class="fingerPosition" />
+            <ui:VisualElement name="finger-position-9" class="fingerPosition" />
+            <ui:VisualElement name="finger-position-10" class="fingerPosition" />
+            <ui:VisualElement name="finger-position-11" class="fingerPosition" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="touchboard" style="flex-grow: 1; position: absolute; left: 0; top: 0; right: 0; bottom: 0;" />
+</ui:UXML>
